@@ -104,3 +104,9 @@
 ## License
 
 Please see the file called LICENSE.
+
+## History
+
+1.0.1 Fixes the 1k buffer issue (originally reported [here](https://github.com/willem4ever/mod_websocket_mosquitto/issues/4))
+
+(not-versioned) Forked on Jul. 16, 2013. The last commit is 1951b4df3ac937cecd1a93b0b4674327edc542b8 on Mar. 25, 2013
