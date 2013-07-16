@@ -38,7 +38,7 @@ else:
     else:
         env.Append(CPPDEFINES = ["LINUX=2", "_FORTIFY_SOURCE=2", "_GNU_SOURCE", "_LARGEFILE64_SOURCE", "_REENTRANT"],
                    CPPPATH = ["/usr/include/apache2", "/usr/include/apr-1.0"])
-		modulesdir = "/usr/lib/apache2/modules"
+        modulesdir = "/usr/lib/apache2/modules"
 
 mosquitto = env.SharedLibrary(source=["mod_websocket_mosquitto.c"],
                          SHLIBPREFIX="",
